@@ -1,5 +1,9 @@
 # screener
 
+> - 微服务落地项目：React, Node, TS, Mongo, NATS Streaming
+> - 大师的视野都很高，有可能站在外太空，我们跟上了会缺氧，所以落地才是关键
+> - 能落地、能抄走的微服务才是好的微服务
+
 - `npm init -y`
 - `npm i -D typescript`
 - `tsc --init`
