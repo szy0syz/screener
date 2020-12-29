@@ -113,3 +113,8 @@ export abstract class Publisher<T extends Event> {
 - `npm i -D typescript ts-node-dev`
 - `npm i -S puppeteer node-nats-streaming cloudinary @types/puppeteer @jscreener/common`
 - `tsc --init`
+
+## Api Services
+
+- `npm i -S typescript ts-node-dev`
+- `npm i passport-google-oauth20 passport node-nats-streaming mongoose express cookie-session @types/passport-google-oauth20 @types/passport @types/mongoose @types/express @types/cookie-session @jscreener/common`
