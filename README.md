@@ -4,6 +4,8 @@
 > - 大师的视野都很高，有可能站在外太空，我们跟上了会缺氧，所以落地才是关键
 > - 能落地、能抄走的微服务才是好的微服务
 
+## Code Sharing and Common Services
+
 - `npm init -y`
 - `npm i -D typescript`
 - `tsc --init`
@@ -105,3 +107,9 @@ export abstract class Publisher<T extends Event> {
   }
 }
 ```
+
+## Worker Services
+
+- `npm i -D typescript ts-node-dev`
+- `npm i -S puppeteer node-nats-streaming cloudinary @types/puppeteer @jscreener/common`
+- `tsc --init`
