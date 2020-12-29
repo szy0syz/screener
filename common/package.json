@@ -1,6 +1,6 @@
 {
   "name": "@jscreener/common",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,8 +9,8 @@
   ],
   "scripts": {
     "clean": "del ./build",
-    "build": "npm run clean && tsc",
-    "pub": "cd .. && git add . && git commit -m \"updates\" && npm version patch && npm run build && npm publish --access=public"
+    "build": "npm run clean && tsc && cp REAMD.md ./build",
+    "pub": "git add . && git commit -m \"updates\" && npm version patch && npm run build && npm publish --access=public"
   },
   "keywords": [],
   "author": "",
